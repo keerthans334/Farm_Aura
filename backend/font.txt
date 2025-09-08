@@ -1,0 +1,15 @@
+Plan for Pest Detection Feature Implementation:
+
+Create PestDetection Page:
+UI sections:
+Header ("Pest & Disease Detection")
+Upload Crop Image (icon, instructions, "Take Photo" and "Upload File" buttons)
+Recent Scans (list of scan cards: pest name, recommendation, time, severity, confidence, actions)
+Photography Tips (Best Practices and Avoid These, styled as in screenshot)
+Sidebar Navigation:
+Add "Pest Detection" to sidebar with icon, route /pest-detection, and active state styling.
+Routing:
+Add route in App.js for /pest-detection to render the new page.
+Styling:
+Use existing color palette and card/button styles for consistency.
+Add new CSS if needed for Pest Detection-specific UI elements.

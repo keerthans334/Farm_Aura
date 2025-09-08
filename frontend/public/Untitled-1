@@ -1,0 +1,27 @@
+/frontend
+  /public
+    index.html
+    favicon.ico
+  /src
+    /assets
+      /images
+      /icons
+    /components
+      Sidebar.js
+      DashboardCard.js
+      WeatherForecast.js
+      Alerts.js
+      QuickActions.js
+      CropStatus.js
+    /pages
+      Dashboard.js
+    /styles
+      colors.css
+      layout.css
+      cards.css
+      sidebar.css
+      buttons.css
+    App.js
+    index.js
+/backend
+  (empty for now)

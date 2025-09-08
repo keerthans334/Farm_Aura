@@ -1,0 +1,219 @@
+.pest-detection-page {
+  padding: 32px 24px 24px 24px;
+  background: #fafbfc;
+  min-height: 100vh;
+}
+.pest-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+}
+.pest-subtitle {
+  color: #444;
+  margin-bottom: 2em;
+}
+.upload-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 32px 24px;
+  margin-bottom: 32px;
+}
+.upload-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.upload-box {
+  border: 2px dashed #d6e9d6;
+  border-radius: 10px;
+  padding: 32px 0 24px 0;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.upload-image-icon {
+  margin-bottom: 1em;
+}
+.upload-instructions strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.25em;
+}
+.upload-instructions p {
+  color: #666;
+  font-size: 0.98rem;
+  margin-bottom: 1.2em;
+}
+.upload-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.take-photo-btn, .upload-file-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 1.5em;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.upload-file-btn {
+  background: #fff;
+  color: #222;
+  border: 1px solid #bbb;
+}
+.take-photo-btn:hover {
+  background: #388e3c;
+}
+.upload-file-btn:hover {
+  background: #f5f5f5;
+}
+.recent-scans-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 28px 24px 18px 24px;
+  margin-bottom: 32px;
+}
+.recent-scans-section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.2em;
+}
+.scan-card {
+  display: flex;
+  align-items: center;
+  background: #f7f8fa;
+  border-radius: 8px;
+  padding: 18px 18px 14px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+.scan-icon {
+  font-size: 2rem;
+  margin-right: 18px;
+  color: #bdbdbd;
+}
+.scan-info {
+  flex: 1 1 0%;
+}
+.scan-title {
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin-bottom: 0.1em;
+}
+.scan-desc {
+  color: #666;
+  font-size: 0.98rem;
+  margin-bottom: 0.2em;
+}
+.scan-time {
+  color: #aaa;
+  font-size: 0.92rem;
+}
+.scan-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 18px;
+  margin-right: 18px;
+  gap: 0.2em;
+}
+.severity {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  background: #e0d6c6;
+  color: #6d4c1b;
+  margin-bottom: 2px;
+}
+.severity.medium {
+  background: #e7e0d6;
+  color: #a67c52;
+}
+.severity.none {
+  background: #e0e0e0;
+  color: #888;
+}
+.confidence {
+  font-size: 0.95rem;
+  color: #444;
+  font-weight: 500;
+}
+.scan-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.view-details-btn {
+  background: #fff;
+  color: #222;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 0.4em 1.2em;
+  font-size: 0.98rem;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.get-treatment-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4em 1.2em;
+  font-size: 0.98rem;
+  cursor: pointer;
+}
+.get-treatment-btn:hover {
+  background: #388e3c;
+}
+.photography-tips-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 28px 24px 18px 24px;
+}
+.photography-tips-section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.2em;
+}
+.tips-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+.tips-best, .tips-avoid {
+  flex: 1 1 220px;
+}
+.tips-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.tips-title.best {
+  color: #388e3c;
+}
+.tips-title.avoid {
+  color: #e53935;
+}
+.tips-best ul, .tips-avoid ul {
+  margin: 0;
+  padding-left: 1.2em;
+  color: #444;
+  font-size: 0.98rem;
+}
+.tips-avoid ul {
+  color: #b71c1c;
+}

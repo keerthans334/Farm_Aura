@@ -1,0 +1,70 @@
+# Node
+node_modules/
+.env
+.env.*
+dist/
+build/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Webpack/Babel
+*.cache
+.cache-loader/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Test/coverage
+coverage/
+*.lcov
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# React
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+
+# Backend
+backend/.env
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Logs
+logs/
+*.log
+
+# Others
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System
+Icon?
+
+# Editor backups
+*~
+

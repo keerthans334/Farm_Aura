@@ -1,0 +1,21 @@
+.quick-actions {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 20px 28px;
+  margin-bottom: 32px;
+}
+.action-btn {
+  background: var(--primary-green);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.action-btn:hover {
+  background: #24996a;
+}

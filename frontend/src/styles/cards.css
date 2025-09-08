@@ -1,0 +1,269 @@
+.dashboard-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 20px 28px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.card-title {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+.card-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-green);
+}
+.card-subtitle {
+  font-size: 0.9rem;
+  color: var(--accent-yellow);
+}
+.weather-forecast {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  min-width: 400px;
+}
+.forecast-cards {
+  display: flex;
+  gap: 16px;
+}
+.forecast-card {
+  background: var(--accent-blue);
+  border-radius: var(--border-radius);
+  padding: 12px 18px;
+  min-width: 80px;
+  text-align: center;
+}
+.alerts {
+  min-width: 320px;
+}
+.alert-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 14px 18px;
+  margin-bottom: 12px;
+}
+.alert-card.pest { background: var(--accent-red); }
+.alert-card.market { background: var(--accent-yellow); }
+.alert-card.fertilizer { background: var(--accent-green); }
+.crop-status {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 20px 28px;
+  margin-bottom: 32px;
+}
+.progress-bar {
+  background: #eee;
+  border-radius: 8px;
+  height: 12px;
+  width: 100%;
+  margin: 12px 0;
+}
+.progress {
+  background: var(--primary-green);
+  height: 100%;
+  border-radius: 8px;
+}
+.progress-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+.crop-advisory-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+.advisory-header {
+  background: var(--accent-green);
+  border-radius: var(--border-radius);
+  padding: 24px 32px;
+  margin-bottom: 32px;
+}
+.advisory-subtitle {
+  color: var(--text-light);
+  margin-bottom: 16px;
+}
+.advisory-crop-status {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.crop-stage-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--primary-green);
+  gap: 12px;
+}
+.crop-status-cards {
+  display: flex;
+  gap: 32px;
+  margin: 16px 0;
+}
+.status-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 16px 24px;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+.voice-advisory-btn {
+  background: var(--primary-green);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.advisory-recommendations {
+  margin-bottom: 32px;
+}
+.recommendation-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 24px 32px;
+  margin-bottom: 24px;
+}
+.recommendation-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.recommendation-icon {
+  font-size: 1.5rem;
+}
+.recommendation-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--primary-green);
+}
+.priority-tag {
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-left: auto;
+}
+.priority-tag.high {
+  background: var(--accent-red);
+  color: #d32f2f;
+}
+.priority-tag.medium {
+  background: var(--accent-yellow);
+  color: #b8860b;
+}
+.recommendation-details {
+  display: flex;
+  gap: 32px;
+  margin: 16px 0;
+}
+.benefit, .cost, .timeframe {
+  background: var(--accent-blue);
+  border-radius: 8px;
+  padding: 10px 18px;
+  min-width: 120px;
+  font-size: 0.98rem;
+  color: var(--text-dark);
+}
+.recommendation-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.apply-btn {
+  background: var(--primary-green);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.explain-btn {
+  background: var(--accent-blue);
+  color: var(--primary-green);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.not-applicable-btn {
+  background: #eee;
+  color: var(--text-light);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.recommendation-why {
+  background: var(--accent-green);
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 0.98rem;
+  color: var(--text-dark);
+  margin-top: 8px;
+}
+.advisory-cost-benefit {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 24px 32px;
+  margin-bottom: 32px;
+}
+.cost-benefit-bar {
+  background: #eee;
+  border-radius: 8px;
+  height: 16px;
+  width: 100%;
+  margin: 16px 0;
+  position: relative;
+}
+.profit-bar {
+  background: var(--primary-green);
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cost-benefit-details {
+  display: flex;
+  gap: 32px;
+  margin: 16px 0;
+  font-size: 1.2rem;
+  color: var(--primary-green);
+}
+.cost-benefit-details > div span {
+  display: block;
+  font-size: 1rem;
+  color: var(--text-light);
+}
+.cost-benefit-bottom-line {
+  background: var(--accent-green);
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-top: 8px;
+}

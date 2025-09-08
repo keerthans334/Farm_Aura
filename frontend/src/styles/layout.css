@@ -1,0 +1,27 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--sidebar-bg);
+  margin: 0;
+}
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+}
+.dashboard-main {
+  flex: 1;
+  padding: 32px 40px;
+  background: var(--sidebar-bg);
+}
+.dashboard-header {
+  margin-bottom: 24px;
+}
+.dashboard-cards-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.dashboard-row {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
